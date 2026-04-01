@@ -2,37 +2,32 @@
 
 This repository is a public portfolio version of a machine learning project on earnings announcement text and short-window abnormal stock returns.
 
-The notebook cleans narrative disclosure text, builds text features, fits LDA topic models, evaluates topic-return relationships with Lasso, and compares classifiers for predicting large positive returns.
+The project uses earnings announcement disclosures to study whether narrative text can help explain short-window abnormal stock returns.
 
-## Portfolio Version Note
+## Public Portfolio Note
 
-This public version focuses on methodology, modeling choices, and representative results. Original course materials, raw source data, and assignment scaffolding are intentionally omitted.
+This repository is a portfolio adaptation of a larger academic analysis. It includes selected code, outputs, and summary materials for portfolio review. Raw source data, classroom-specific scaffolding, and non-essential work products are intentionally omitted, and the repository is not intended as a step-by-step instructional solution.
 
-## Highlights
+## Start Here
 
-- Cleans earnings announcement text and normalizes financial numbers
-- Builds unigram and bigram features with stop-word filtering
-- Tunes LDA topic models across multiple topic counts
-- Uses Lasso to identify topics associated with abnormal returns
-- Compares classifiers for predicting returns greater than 5%
+- `PROJECT_SUMMARY.md`: main case-study style overview
+- `earnings_announcement_topic_modeling.ipynb`: selected modeling workflow
 
-## Selected Findings
+## At a Glance
 
-- The source dataset contains **12,500** earnings announcements
-- Topic coherence was evaluated from **40 to 150 topics**
-- A 50-topic specification was used for the final interpretable model
-- The strongest positive topic centers on EPS and adjusted operating language
-- The strongest negative topic centers on net loss language
-- The best reported classification setup uses combined topic and DTM features
+- Business question: can earnings announcement language help explain or predict short-window return reactions?
+- Methods: text cleaning, document-term matrix construction, LDA topic modeling, Lasso regression, and classification modeling
+- Headline takeaway: earnings announcement text contains useful signal, but predictive performance is moderate and strongest when interpreted alongside modeling choices and limitations
 
 ## Repository Contents
 
-- `earnings_announcement_topic_modeling.ipynb`: cleaned notebook with code, modeling workflow, and selected outputs
+- `earnings_announcement_topic_modeling.ipynb`: selected notebook with code, modeling workflow, and outputs
+- `PROJECT_SUMMARY.md`: detailed project narrative with business framing, approach, findings, and limitations
 - `requirements.txt`: Python dependencies used in the project
 
 ## Data Note
 
-The raw source data is not included in this repository. The original workflow expects access to:
+The raw source data is not included in this repository. The underlying workflow depends on:
 
 - `ExpTask2Data.csv.gz`
 
