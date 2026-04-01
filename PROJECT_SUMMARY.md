@@ -83,6 +83,8 @@ Selected results:
 
 The model performs noticeably better on the majority class than on the positive-return class, which suggests that the classification problem remains challenging even after substantial text feature engineering.
 
+Rather than relying on a single model, the workflow compares multiple modeling approaches and treats tuning as a way to evaluate tradeoffs between interpretability and predictive performance.
+
 ## Interpretation
 
 The strongest positive topic is centered on EPS and adjusted operating performance, while the strongest negative topic is centered on loss-oriented language. That directional result is intuitive: performance-related language tends to align with more favorable reactions, while explicit loss language tends to align with weaker reactions.
