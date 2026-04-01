@@ -27,11 +27,7 @@ This repository is a portfolio adaptation of a larger academic analysis. It incl
 
 ## Data Note
 
-The raw source data is not included in this repository. The underlying workflow depends on:
-
-- `ExpTask2Data.csv.gz`
-
-The notebook also references an intermediate cleaned file generated locally during preprocessing.
+The raw source data is not included in this repository. The underlying workflow depends on a raw earnings announcement dataset and a locally generated cleaned text file created during preprocessing.
 
 ## Local Reproduction
 
