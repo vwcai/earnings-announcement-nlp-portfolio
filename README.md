@@ -1,4 +1,4 @@
-# Earnings Announcement Topic Modeling
+# Earnings Announcement NLP
 
 This repository is a public portfolio version of a machine learning project on earnings announcement text and short-window abnormal stock returns.
 
@@ -27,7 +27,7 @@ This repository is a portfolio adaptation of a larger academic analysis. It incl
 
 ## Data Note
 
-The raw source data is not included in this repository. The underlying workflow depends on a raw earnings announcement dataset and a locally generated cleaned text file created during preprocessing.
+The raw source data is not included in this repository. The underlying workflow depends on earnings announcement text, short-window abnormal return labels, and a locally generated cleaned text file created during preprocessing.
 
 ## Local Reproduction
 
